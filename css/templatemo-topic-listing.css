@@ -518,6 +518,25 @@ strong {
   color: var(--white-color);
   max-width: 150px;
 }
+/*---------------------------------------
+  whatsapp         
+-----------------------------------------*/
+.whatsapp-float {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 60px;
+  height: 60px;
+  background-color: #25D366;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 30px;
+  line-height: 60px;
+  z-index: 999;
+}
+
+
 
 /*---------------------------------------
   coberturas           
