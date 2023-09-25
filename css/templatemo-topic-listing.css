@@ -661,7 +661,7 @@ strong {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 60vh; /* Ocupa todo el alto de la ventana */
+  height: 80vh; /* Ocupa todo el alto de la ventana */
   background-image:  url(../images/cara4.jpeg);
   background-size: cover; /* Ajusta la imagen para cubrir toda la sección */
   background-position: center; 
