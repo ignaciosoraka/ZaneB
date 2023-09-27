@@ -696,14 +696,34 @@ strong {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 70vh; /* Ocupa todo el alto de la ventana */
-  background-image:  url(../images/seccion2.jpg);
+  height: 100vh; /* Ocupa todo el alto de la ventana */
+  background-image:  url(../images/seccion21.jpg);
   background-size: cover; /* Ajusta la imagen para cubrir toda la sección */
   background-position: center; 
   position: relative;
   padding: 20px; /* Espaciado interno */
   margin-bottom: 100px;
 }
+
+@media screen and (max-width: 500px)  {
+  .seccion{
+    height: 400px;
+  }
+  
+  .seccion1{
+    height:350px ;
+  }
+
+
+  .et_pd_text_inner2{
+  
+    position: absolute;
+    top: 80%;
+    right: 10%;
+    transform: translate(10%, -80%);
+  }
+}
+
 
 
 
