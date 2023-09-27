@@ -698,8 +698,8 @@ strong {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 100vh; /* Ocupa todo el alto de la ventana */
-  background-image:  url(../images/seccion21.jpg);
+  height: 80vh; /* Ocupa todo el alto de la ventana */
+  background-image:  url(../images/seccion2.jpg);
   background-size: cover; /* Ajusta la imagen para cubrir toda la sección */
   background-position: center; 
   position: relative;
@@ -713,17 +713,12 @@ strong {
   }
   
   .seccion1{
-    height:350px ;
+    height:450px ;
+    
   }
 
 
-  .et_pd_text_inner2{
-  
-    position: absolute;
-    top: 80%;
-    right: 10%;
-    transform: translate(10%, -80%);
-  }
+
 }
 
 
@@ -1545,7 +1540,7 @@ blockquote {
 
   .section-padding {
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
   }
 
   .navbar {
@@ -1621,13 +1616,20 @@ blockquote {
   h1 {
     font-size: 36px;
   }
-
+  .et_pd_text_inner2{
+  
+    position: absolute;
+    top: 90%;
+    right: 10%;
+    transform: translate(10%, -70%);
+    
+  }
   h2 {
     font-size: 28px;
   }
 
   h3 {
-    font-size: 26px;
+    font-size: 23px;
   }
 
   h4 {
