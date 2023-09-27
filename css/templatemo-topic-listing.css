@@ -11,18 +11,18 @@ https://templatemo.com/tm-590-topic-listing
 -----------------------------------------*/
 :root {
   --white-color: #ffffff;
-  --primary-color: #13547a;
-  --secondary-color: #80d0c7;
+  --primary-color: #0474bc;
+  --secondary-color: #04a6e9;
   --section-bg-color: #f0f8ff;
-  --custom-btn-bg-color: #80d0c7;
-  --custom-btn-bg-hover-color: #13547a;
+  --custom-btn-bg-color: #04a6e9;
+  --custom-btn-bg-hover-color: #0474bc;
   --dark-color: #000000;
   --p-color: #717275;
   --border-color: #7fffd4;
   --link-hover-color: #13547a;
 
-  --body-font-family: 'Open Sans', sans-serif;
-  --title-font-family: 'IBM Plex Sans', sans-serif;
+  --body-font-family:  'Poppins', sans-serif;
+  --title-font-family: 'Poppins', sans-serif;
 
   --h1-font-size: 58px;
   --h2-font-size: 46px;
@@ -229,7 +229,7 @@ strong {
 .custom-border-btn {
   background: transparent;
   border: 2px solid var(--custom-btn-bg-color);
-  color: var(--custom-btn-bg-color);
+  
 }
 
 .custom-border-btn:hover {
@@ -248,7 +248,7 @@ strong {
   SITE HEADER              
 -----------------------------------------*/
 .site-header {
-  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  background-image:  linear-gradient(360deg, #04a6e9 25%, #0474bc 100%);
   padding-top: 150px;
   padding-bottom: 80px;
 }
@@ -486,11 +486,12 @@ strong {
   HERO        
 -----------------------------------------*/
 .hero-section {
-  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  background-image: linear-gradient(360deg, #04a6e9 25%, #0474bc 100%);
   position: relative;
   overflow: hidden;
   padding-top: 150px;
   padding-bottom: 150px;
+  
 }
 
 .hero-section .input-group {
@@ -542,12 +543,14 @@ strong {
   coberturas           
 -----------------------------------------*/
 .servicios{
-  background-color:#80d0c7;
+  background:#0474bc;
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 70vh;
   padding: 0 35px;
+  
+  
   
 
 }
@@ -565,6 +568,7 @@ strong {
   transform: translateY(-50%);
   font-size: 1.25rem;
   box-shadow: 0 3px 6px rgba(0,0,0,0.23);
+  z-index: 2;
 }
 
 .wrapper i:first-child{
@@ -584,12 +588,13 @@ strong {
 .wrapper .carousel{
   display: grid;
   grid-auto-flow: column;
-  grid-auto-columns: calc((100%/3) - 12px);
+  grid-auto-columns: calc((100%/3) - 2px);
   gap: 16px;
   overflow-x:auto;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   scrollbar-width: 0;
+  
 }
 
 .carousel::-webkit-scrollbar{
@@ -624,6 +629,7 @@ strong {
   padding-bottom: 15px;
   cursor: pointer;
   
+  
 }
 
 /*si subo imagenes*/
@@ -633,19 +639,17 @@ strong {
   justify-content: center;
 
 }
-.card img{
-  background: #8b53ff;
+.card .img{
+  background:#0d518c;
   width: 148px;
   height: 148px;
   border-radius: 50%;
 }
 
 .card .img img{
-  width: 140px;
-  height: 140px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 4px solid #ffff;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;;
 
 }
 
@@ -657,19 +661,17 @@ strong {
 
 @media screen and (max-width: 900px) {
   .wrapper .carousel{
-      grid-auto-columns: calc((100%/2) - 9px);
+      grid-auto-columns: calc((100%/2) - -3px);
   }
   
 }
 
 @media screen and (max-width: 600px) {
   .wrapper .carousel{
-      grid-auto-columns: 100%;
+      grid-auto-columns: calc((100%/1) - -20px);
   }
   
 }
-
-
 
 
 /*---------------------------------------
@@ -680,14 +682,46 @@ strong {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 80vh; /* Ocupa todo el alto de la ventana */
-  background-image:  url(../images/cara4.jpeg);
+  height: 70vh; /* Ocupa todo el alto de la ventana */
+  background-image:  url(../images/seccion1.jpeg);
   background-size: cover; /* Ajusta la imagen para cubrir toda la sección */
   background-position: center; 
-  color: white; /* Color del texto */
+  position: relative;
   padding: 20px; /* Espaciado interno */
   margin-bottom: 100px;
   
+}
+
+.seccion1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70vh; /* Ocupa todo el alto de la ventana */
+  background-image:  url(../images/seccion2.jpg);
+  background-size: cover; /* Ajusta la imagen para cubrir toda la sección */
+  background-position: center; 
+  position: relative;
+  padding: 20px; /* Espaciado interno */
+  margin-bottom: 100px;
+}
+
+
+
+
+.et_pd_text_inner{
+  
+  position: absolute;
+  top: 80%;
+  left: 20%;
+  transform: translate(-10%, -80%);
+}
+
+.et_pd_text_inner2{
+  
+  position: absolute;
+  top: 80%;
+  right: 10%;
+  transform: translate(10%, -80%);
 }
 
 
@@ -771,7 +805,7 @@ strong {
 }
 
 .pack {
-  color: #000000;
+  color: #1E90FF;
   font-weight: 600;
   margin-bottom: 10px;
 }
@@ -783,7 +817,7 @@ strong {
 }
 
 .bg-pack {
-  background: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  background: linear-gradient(360deg, #04a6e9 25%, #0474bc 100%);
 
 }
 
@@ -808,7 +842,9 @@ strong {
   TOPICS              
 -----------------------------------------*/
 .featured-section {
-  background-color: var(--secondary-color);
+  /*
+  background-color: var(--secondary-color);*/
+  background: linear-gradient(360deg, #0474bc 25%, #04a6e9 100%);
   border-radius: 0 0 100px 100px;
   padding-bottom: 100px;
 }
@@ -889,6 +925,8 @@ strong {
   top: 0;
   right: 0;
   left: 0;
+  
+  background: #04a6e9;
 
 
 }
@@ -907,7 +945,7 @@ strong {
   display: flex;
   justify-content: center;
   /*padding-bottom: 100px;*/
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/pexels-lil-artsy-3278757.jpg);
+  background:#d0d0d0;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -995,7 +1033,7 @@ textarea {
   font-size: 16px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   cursor: pointer;
-  background: var(--secondary-color)
+  background:#0d518c;
 }
 
 .btn:hover {
@@ -1149,7 +1187,7 @@ blockquote {
   TIMELINE              
 -----------------------------------------*/
 .timeline-section {
-  background-image: url('../images/colleagues-working-cozy-office-medium-shot.jpg');
+  background-image: url('../images/fondo.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

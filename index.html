@@ -17,8 +17,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,200;1,300;1,400;1,500&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300;1,400&display=swap" rel="stylesheet">
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -65,7 +64,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_4">Blog</a>
+                            <a class="nav-link click-scroll" href="#section_4">FAQ</a>
                         </li>
 
                         <li class="nav-item">
@@ -121,7 +120,7 @@
 
                             </div>
 
-                            <img src="images/cara3.jpg" class="custom-block-image img-fluid sombreado" alt="">
+                            <img src="images/iStock-157383311 (1).jpg" class="custom-block-image img-fluid sombreado" alt="">
                             </a>
                         </div>
                     </div>
@@ -138,31 +137,31 @@
 
                                     <div class="form-container">
 
-                                        <form action="">
-                                            <h5 class="my-4 text-center" style="color: white;">Agendar una cita</h5>
+                                        <form action="correos.php" method="POST">
+                                            <h5 class="my-4 text-center" style="color:#0d518c">Agendar una cita</h5>
 
                                             <div class=" col-md-12 col-sm-12 form-group">
 
                                                 <div class="form-content">
 
                                                     <label for="name"></label>
-                                                    <input type="text" name="name" id="name" placeholder="Nombre">
+                                                    <input type="text" name="nombre" id="name" placeholder="Nombre:">
                                                 </div>
                                                 <div class="form-content">
                                                     <label for="Asunto"></label>
-                                                    <input type="text" name="Asunto" id="lastname" placeholder="Asunto">
+                                                    <input type="text" name="asunto" id="lastname" placeholder="Asunto:">
                                                 </div>
                                             </div>
 
                                             <div class="form-group">
                                                 <div class="form-content">
                                                     <label for="email"></label>
-                                                    <input type="email" name="email" id="email" placeholder="Email">
+                                                    <input type="email" name="email" id="email" placeholder="Email:">
 
                                                 </div>
                                                 <div class="form-content">
                                                     <label for="phone"></label>
-                                                    <input type="tel" name="phone" id="phone" placeholder="Telefono">
+                                                    <input type="tel" name="phone" id="phone" placeholder="Telefono:">
 
                                                 </div>
                                             </div>
@@ -171,7 +170,7 @@
 
 
 
-                                            <input class="btn2" type="submit" name="contact" value="Enviar">
+                                            <input  class="btn2" type="submit" name="contact" value="Enviar">
 
                                         </form>
 
@@ -194,87 +193,94 @@
         </section>
 
 
-        <section class="explore-section section-padding" id="section_2">
+        <section style="margin: 0; padding: 0; box-sizing: border-box;"  class="explore-section section-padding" id="section_2">
             <div class="container">
                 <div class="row">
 
                     <div class="col-12 text-center">
-                        <h2 class="mb-4">Lo que tu ahorro también cubre</h1>
+                        <h2  style="margin-top: 50px; margin-bottom: 30px;" class="">Lo que tu ahorro también cubre</h1>
                     </div>
 
                 </div>
             </div>
 
-            <section class="servicios">
+            <section  class="servicios">
                 <div class="wrapper">
-                    <i id="left" class="fa-solid fa-angle-left"></i>
+                  <i id="left" class="fa-solid fa-angle-left"></i>
                     <ul class="carousel">
                         <li class="card">
-                            <div class="img"><img src="images/cobertura/ahorro.png" alt="" draggable="false"></div>
-                            <h2>Rendimiento sobre tu ahorro</h2>
-                            
+                            <div class="img"><img src="images/cobertura/ZANE ICONOS_1.png" alt="" draggable="false" ></div>
+                            <h2>Escribir el servicio</h2>
+                            <span>Algo descritivo</span>
                         </li>
                         <li class="card">
-                            <div class="img"><img src="images/cobertura/calidad-de-vida.png" alt="" draggable="false">
-                            </div>
-                            <h2>Seguro de vida</h2>
-                            
+                            <div class="img"><img src="images/cobertura/ZANE ICONOS_9.png" alt="" draggable="false"></div>
+                            <h2>Escribir el servicio</h2>
+                            <span>Algo descritivo</span>
                         </li>
                         <li class="card">
-                            <div class="img"><img src="images/cobertura/compania-de-seguros.png" alt="" draggable="false"></div>
-                            <h2 style="text-align: center;">Indemnización gastos funerarios</h2>
-                            
+                            <div class="img"><img src="images/cobertura/ZANE ICONOS_3.png" alt="" draggable="false"></div>
+                            <h2>Escribir el servicio</h2>
+                            <span>Algo descritivo</span>
                         </li>
                         <li class="card">
-                            <div class="img"><img src="images/cobertura/enfermedad-del-corazon.png" alt="" draggable="false"></div>
-                            <h2 style="text-align: center;">Anticipo por Enfermedad terminal</h2>
-                            
+                            <div class="img"><img src="images/cobertura/ZANE ICONOS_4.png" alt="" draggable="false"></div>
+                            <h2>Escribir el servicio</h2>
+                            <span>Algo descritivo</span>
                         </li>
                         <li class="card">
-                            <div class="img"><img src="images/cobertura/herencia.png" alt="" draggable="false"></div>
-                            <h2 style="text-align: center;">Plan vitalicio y suma asegurada hereditable</h2>
-                            
+                            <div class="img"><img src="images/cobertura/ZANE ICONOS_5.png" alt="" draggable="false"></div>
+                            <h2>Escribir el servicio</h2>
+                            <span>Algo descritivo</span>
                         </li>
                         <li class="card">
-                            <div class="img"><img src="images/cobertura/impuesto.png" alt="" draggable="false"></div>
-                            <h2 style="text-align: center;">Beneficio fiscal de tu plan de ahorro</h2>
-                            
+                            <div class="img"><img src="images/cobertura/ZANE ICONOS_6.png" alt="" draggable="false"></div>
+                            <h2>Escribir el servicio</h2>
+                            <span>Algo descritivo</span>
                         </li>
                         <li class="card">
-                            <div class="img"><img src="images/cobertura/los-seguros-de-invalidez.png" alt="" draggable="false"></div>
-                            <h2 style="text-align: center;">Seguro por invalides total y permanente</h2>
-                            
+                            <div class="img"><img src="images/cobertura/ZANE ICONOS_7.png" alt="" draggable="false"></div>
+                            <h2>Escribir el servicio</h2>
+                            <span>Algo descritivo</span>
                         </li>
                         <li class="card">
-                            <div class="img"><img src="images/cobertura/lugar-de-trabajo.png" alt=""></div>
-                            <h2 style="text-align: center;">Indemnización por muerte accidental o perdida organica</h2>
-                            
+                            <div class="img"><img src="images/cobertura/ZANE ICONOS_8.png"   al="" draggable="false"></div>
+                            <h2>Escribir el servicio</h2>
+                            <span>Algo descritivo</span>
                         </li>
                     </ul>
                     <i id="right" class="fa-solid fa-angle-right"></i>
                 </div>
+            
             </section>
 
+            
+
+           
 
         </section>
 
         <section class="fotoseccion">
             <div class="seccion">
-                <div class="texto-superpuesto">
-                    <h3 style="color: black;"></h3>
+                <div class="et_pd_text_inner">
+                    <h3 data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine" style="color:aliceblue;">Cuida de tu familia hoy <br>para un mañana sin sorpresas.</h3>
 
                 </div>
             </div>
         </section>
+
+        
         <section class="price container">
 
 
             <h2>Tabla comparativa</h2>
             <img decoding="async" loading="lazy" width="503" height="446"
-                src="https://aldrete.com.mx/wp-content/uploads/2020/05/tabla-cel.png" alt="" title="tabla-cel"
-                srcset="https://aldrete.com.mx/wp-content/uploads/2020/05/tabla-cel.png 503w, https://aldrete.com.mx/wp-content/uploads/2020/05/tabla-cel-480x426.png 480w"
+                src="images/Características.jpg" alt="" title="tabla-cel"
+                srcset="images/Características.jpg 503w, images/Características.480x426.jpg 480w"
                 sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 503px, 100vw"
-                class="wp-image-1035">
+                class="wp-image-1035"> 
 
 
             <div class="price-content">
@@ -299,45 +305,33 @@
                     class="price-1 bg-pack">
                     <p class="pack-1">Con ZANE</p>
 
-                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 256 256">
-                            <path fill="white"
-                                d="M216 40H40a16 16 0 0 0-16 16v144a16 16 0 0 0 16 16h176a16 16 0 0 0 16-16V56a16 16 0 0 0-16-16Zm-10.34 45.66l-96 96a8 8 0 0 1-11.32 0l-40-40a8 8 0 0 1 11.32-11.32L104 164.69l90.34-90.35a8 8 0 0 1 11.32 11.32Z" />
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 1024 1024">
+                        <path fill="white" d="M512 0C229.232 0 0 229.232 0 512c0 282.784 229.232 512 512 512c282.784 0 512-229.216 512-512C1024 229.232 794.784 0 512 0zm0 961.008c-247.024 0-448-201.984-448-449.01c0-247.024 200.976-448 448-448s448 200.977 448 448s-200.976 449.01-448 449.01zm204.336-636.352L415.935 626.944l-135.28-135.28c-12.496-12.496-32.752-12.496-45.264 0c-12.496 12.496-12.496 32.752 0 45.248l158.384 158.4c12.496 12.48 32.752 12.48 45.264 0c1.44-1.44 2.673-3.009 3.793-4.64l318.784-320.753c12.48-12.496 12.48-32.752 0-45.263c-12.512-12.496-32.768-12.496-45.28 0z"/></svg></p>
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 1024 1024">
+                        <path fill="white" d="M512 0C229.232 0 0 229.232 0 512c0 282.784 229.232 512 512 512c282.784 0 512-229.216 512-512C1024 229.232 794.784 0 512 0zm0 961.008c-247.024 0-448-201.984-448-449.01c0-247.024 200.976-448 448-448s448 200.977 448 448s-200.976 449.01-448 449.01zm204.336-636.352L415.935 626.944l-135.28-135.28c-12.496-12.496-32.752-12.496-45.264 0c-12.496 12.496-12.496 32.752 0 45.248l158.384 158.4c12.496 12.48 32.752 12.48 45.264 0c1.44-1.44 2.673-3.009 3.793-4.64l318.784-320.753c12.48-12.496 12.48-32.752 0-45.263c-12.512-12.496-32.768-12.496-45.28 0z"/></svg></p></p>
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 1024 1024">
+                        <path fill="white" d="M512 0C229.232 0 0 229.232 0 512c0 282.784 229.232 512 512 512c282.784 0 512-229.216 512-512C1024 229.232 794.784 0 512 0zm0 961.008c-247.024 0-448-201.984-448-449.01c0-247.024 200.976-448 448-448s448 200.977 448 448s-200.976 449.01-448 449.01zm204.336-636.352L415.935 626.944l-135.28-135.28c-12.496-12.496-32.752-12.496-45.264 0c-12.496 12.496-12.496 32.752 0 45.248l158.384 158.4c12.496 12.48 32.752 12.48 45.264 0c1.44-1.44 2.673-3.009 3.793-4.64l318.784-320.753c12.48-12.496 12.48-32.752 0-45.263c-12.512-12.496-32.768-12.496-45.28 0z"/></svg></p>
                         </svg></p>
-                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 256 256">
-                            <path fill="white"
-                                d="M216 40H40a16 16 0 0 0-16 16v144a16 16 0 0 0 16 16h176a16 16 0 0 0 16-16V56a16 16 0 0 0-16-16Zm-10.34 45.66l-96 96a8 8 0 0 1-11.32 0l-40-40a8 8 0 0 1 11.32-11.32L104 164.69l90.34-90.35a8 8 0 0 1 11.32 11.32Z" />
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 1024 1024">
+                        <path fill="white" d="M512 0C229.232 0 0 229.232 0 512c0 282.784 229.232 512 512 512c282.784 0 512-229.216 512-512C1024 229.232 794.784 0 512 0zm0 961.008c-247.024 0-448-201.984-448-449.01c0-247.024 200.976-448 448-448s448 200.977 448 448s-200.976 449.01-448 449.01zm204.336-636.352L415.935 626.944l-135.28-135.28c-12.496-12.496-32.752-12.496-45.264 0c-12.496 12.496-12.496 32.752 0 45.248l158.384 158.4c12.496 12.48 32.752 12.48 45.264 0c1.44-1.44 2.673-3.009 3.793-4.64l318.784-320.753c12.48-12.496 12.48-32.752 0-45.263c-12.512-12.496-32.768-12.496-45.28 0z"/></svg></p>
                         </svg></p>
-                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 256 256">
-                            <path fill="white"
-                                d="M216 40H40a16 16 0 0 0-16 16v144a16 16 0 0 0 16 16h176a16 16 0 0 0 16-16V56a16 16 0 0 0-16-16Zm-10.34 45.66l-96 96a8 8 0 0 1-11.32 0l-40-40a8 8 0 0 1 11.32-11.32L104 164.69l90.34-90.35a8 8 0 0 1 11.32 11.32Z" />
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 1024 1024">
+                        <path fill="white" d="M512 0C229.232 0 0 229.232 0 512c0 282.784 229.232 512 512 512c282.784 0 512-229.216 512-512C1024 229.232 794.784 0 512 0zm0 961.008c-247.024 0-448-201.984-448-449.01c0-247.024 200.976-448 448-448s448 200.977 448 448s-200.976 449.01-448 449.01zm204.336-636.352L415.935 626.944l-135.28-135.28c-12.496-12.496-32.752-12.496-45.264 0c-12.496 12.496-12.496 32.752 0 45.248l158.384 158.4c12.496 12.48 32.752 12.48 45.264 0c1.44-1.44 2.673-3.009 3.793-4.64l318.784-320.753c12.48-12.496 12.48-32.752 0-45.263c-12.512-12.496-32.768-12.496-45.28 0z"/></svg></p>
                         </svg></p>
-                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 256 256">
-                            <path fill="white"
-                                d="M216 40H40a16 16 0 0 0-16 16v144a16 16 0 0 0 16 16h176a16 16 0 0 0 16-16V56a16 16 0 0 0-16-16Zm-10.34 45.66l-96 96a8 8 0 0 1-11.32 0l-40-40a8 8 0 0 1 11.32-11.32L104 164.69l90.34-90.35a8 8 0 0 1 11.32 11.32Z" />
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 1024 1024">
+                        <path fill="white" d="M512 0C229.232 0 0 229.232 0 512c0 282.784 229.232 512 512 512c282.784 0 512-229.216 512-512C1024 229.232 794.784 0 512 0zm0 961.008c-247.024 0-448-201.984-448-449.01c0-247.024 200.976-448 448-448s448 200.977 448 448s-200.976 449.01-448 449.01zm204.336-636.352L415.935 626.944l-135.28-135.28c-12.496-12.496-32.752-12.496-45.264 0c-12.496 12.496-12.496 32.752 0 45.248l158.384 158.4c12.496 12.48 32.752 12.48 45.264 0c1.44-1.44 2.673-3.009 3.793-4.64l318.784-320.753c12.48-12.496 12.48-32.752 0-45.263c-12.512-12.496-32.768-12.496-45.28 0z"/></svg></p>
                         </svg></p>
-                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 256 256">
-                            <path fill="white"
-                                d="M216 40H40a16 16 0 0 0-16 16v144a16 16 0 0 0 16 16h176a16 16 0 0 0 16-16V56a16 16 0 0 0-16-16Zm-10.34 45.66l-96 96a8 8 0 0 1-11.32 0l-40-40a8 8 0 0 1 11.32-11.32L104 164.69l90.34-90.35a8 8 0 0 1 11.32 11.32Z" />
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 1024 1024">
+                        <path fill="white" d="M512 0C229.232 0 0 229.232 0 512c0 282.784 229.232 512 512 512c282.784 0 512-229.216 512-512C1024 229.232 794.784 0 512 0zm0 961.008c-247.024 0-448-201.984-448-449.01c0-247.024 200.976-448 448-448s448 200.977 448 448s-200.976 449.01-448 449.01zm204.336-636.352L415.935 626.944l-135.28-135.28c-12.496-12.496-32.752-12.496-45.264 0c-12.496 12.496-12.496 32.752 0 45.248l158.384 158.4c12.496 12.48 32.752 12.48 45.264 0c1.44-1.44 2.673-3.009 3.793-4.64l318.784-320.753c12.48-12.496 12.48-32.752 0-45.263c-12.512-12.496-32.768-12.496-45.28 0z"/></svg></p>
                         </svg></p>
-                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 256 256">
-                            <path fill="white"
-                                d="M216 40H40a16 16 0 0 0-16 16v144a16 16 0 0 0 16 16h176a16 16 0 0 0 16-16V56a16 16 0 0 0-16-16Zm-10.34 45.66l-96 96a8 8 0 0 1-11.32 0l-40-40a8 8 0 0 1 11.32-11.32L104 164.69l90.34-90.35a8 8 0 0 1 11.32 11.32Z" />
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 1024 1024">
+                        <path fill="white" d="M512 0C229.232 0 0 229.232 0 512c0 282.784 229.232 512 512 512c282.784 0 512-229.216 512-512C1024 229.232 794.784 0 512 0zm0 961.008c-247.024 0-448-201.984-448-449.01c0-247.024 200.976-448 448-448s448 200.977 448 448s-200.976 449.01-448 449.01zm204.336-636.352L415.935 626.944l-135.28-135.28c-12.496-12.496-32.752-12.496-45.264 0c-12.496 12.496-12.496 32.752 0 45.248l158.384 158.4c12.496 12.48 32.752 12.48 45.264 0c1.44-1.44 2.673-3.009 3.793-4.64l318.784-320.753c12.48-12.496 12.48-32.752 0-45.263c-12.512-12.496-32.768-12.496-45.28 0z"/></svg></p>
                         </svg></p>
-                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 256 256">
-                            <path fill="white"
-                                d="M216 40H40a16 16 0 0 0-16 16v144a16 16 0 0 0 16 16h176a16 16 0 0 0 16-16V56a16 16 0 0 0-16-16Zm-10.34 45.66l-96 96a8 8 0 0 1-11.32 0l-40-40a8 8 0 0 1 11.32-11.32L104 164.69l90.34-90.35a8 8 0 0 1 11.32 11.32Z" />
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 1024 1024">
+                        <path fill="white" d="M512 0C229.232 0 0 229.232 0 512c0 282.784 229.232 512 512 512c282.784 0 512-229.216 512-512C1024 229.232 794.784 0 512 0zm0 961.008c-247.024 0-448-201.984-448-449.01c0-247.024 200.976-448 448-448s448 200.977 448 448s-200.976 449.01-448 449.01zm204.336-636.352L415.935 626.944l-135.28-135.28c-12.496-12.496-32.752-12.496-45.264 0c-12.496 12.496-12.496 32.752 0 45.248l158.384 158.4c12.496 12.48 32.752 12.48 45.264 0c1.44-1.44 2.673-3.009 3.793-4.64l318.784-320.753c12.48-12.496 12.48-32.752 0-45.263c-12.512-12.496-32.768-12.496-45.28 0z"/></svg></p>
                         </svg></p>
-                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 256 256">
-                            <path fill="white"
-                                d="M216 40H40a16 16 0 0 0-16 16v144a16 16 0 0 0 16 16h176a16 16 0 0 0 16-16V56a16 16 0 0 0-16-16Zm-10.34 45.66l-96 96a8 8 0 0 1-11.32 0l-40-40a8 8 0 0 1 11.32-11.32L104 164.69l90.34-90.35a8 8 0 0 1 11.32 11.32Z" />
-                        </svg></p>
-                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 256 256">
-                            <path fill="white"
-                                d="M216 40H40a16 16 0 0 0-16 16v144a16 16 0 0 0 16 16h176a16 16 0 0 0 16-16V56a16 16 0 0 0-16-16Zm-10.34 45.66l-96 96a8 8 0 0 1-11.32 0l-40-40a8 8 0 0 1 11.32-11.32L104 164.69l90.34-90.35a8 8 0 0 1 11.32 11.32Z" />
-                        </svg></p>
-                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 256 256">
-                            <path fill="white"
-                                d="M216 40H40a16 16 0 0 0-16 16v144a16 16 0 0 0 16 16h176a16 16 0 0 0 16-16V56a16 16 0 0 0-16-16Zm-10.34 45.66l-96 96a8 8 0 0 1-11.32 0l-40-40a8 8 0 0 1 11.32-11.32L104 164.69l90.34-90.35a8 8 0 0 1 11.32 11.32Z" />
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 1024 1024">
+                        <path fill="white" d="M512 0C229.232 0 0 229.232 0 512c0 282.784 229.232 512 512 512c282.784 0 512-229.216 512-512C1024 229.232 794.784 0 512 0zm0 961.008c-247.024 0-448-201.984-448-449.01c0-247.024 200.976-448 448-448s448 200.977 448 448s-200.976 449.01-448 449.01zm204.336-636.352L415.935 626.944l-135.28-135.28c-12.496-12.496-32.752-12.496-45.264 0c-12.496 12.496-12.496 32.752 0 45.248l158.384 158.4c12.496 12.48 32.752 12.48 45.264 0c1.44-1.44 2.673-3.009 3.793-4.64l318.784-320.753c12.48-12.496 12.48-32.752 0-45.263c-12.512-12.496-32.768-12.496-45.28 0z"/></svg></p>
                         </svg></p>
 
                 </div>
@@ -345,168 +339,59 @@
                 <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" class="price-1">
                     <p class="pack">Afore</p>
 
-                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 48 48">
-                            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                stroke-width="4"
-                                d="m6 11l5-5l13 13L37 6l5 5l-13 13l13 13l-5 5l-13-13l-13 13l-5-5l13-13L6 11Z"
-                                clip-rule="evenodd" />
-                        </svg></svg></p>
-                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 48 48">
-                            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                stroke-width="4"
-                                d="m6 11l5-5l13 13L37 6l5 5l-13 13l13 13l-5 5l-13-13l-13 13l-5-5l13-13L6 11Z"
-                                clip-rule="evenodd" />
-                        </svg></svg></p>
-                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 256 256">
-                            <path fill="currentColor"
-                                d="M216 40H40a16 16 0 0 0-16 16v144a16 16 0 0 0 16 16h176a16 16 0 0 0 16-16V56a16 16 0 0 0-16-16Zm-10.34 45.66l-96 96a8 8 0 0 1-11.32 0l-40-40a8 8 0 0 1 11.32-11.32L104 164.69l90.34-90.35a8 8 0 0 1 11.32 11.32Z" />
-                        </svg></p>
-                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 48 48">
-                            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                stroke-width="4"
-                                d="m6 11l5-5l13 13L37 6l5 5l-13 13l13 13l-5 5l-13-13l-13 13l-5-5l13-13L6 11Z"
-                                clip-rule="evenodd" />
-                        </svg></svg></p>
-                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 256 256">
-                            <path fill="currentColor"
-                                d="M216 40H40a16 16 0 0 0-16 16v144a16 16 0 0 0 16 16h176a16 16 0 0 0 16-16V56a16 16 0 0 0-16-16Zm-10.34 45.66l-96 96a8 8 0 0 1-11.32 0l-40-40a8 8 0 0 1 11.32-11.32L104 164.69l90.34-90.35a8 8 0 0 1 11.32 11.32Z" />
-                        </svg></p>
-                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 48 48">
-                            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                stroke-width="4"
-                                d="m6 11l5-5l13 13L37 6l5 5l-13 13l13 13l-5 5l-13-13l-13 13l-5-5l13-13L6 11Z"
-                                clip-rule="evenodd" />
-                        </svg></svg></p>
-                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 256 256">
-                            <path fill="currentColor"
-                                d="M216 40H40a16 16 0 0 0-16 16v144a16 16 0 0 0 16 16h176a16 16 0 0 0 16-16V56a16 16 0 0 0-16-16Zm-10.34 45.66l-96 96a8 8 0 0 1-11.32 0l-40-40a8 8 0 0 1 11.32-11.32L104 164.69l90.34-90.35a8 8 0 0 1 11.32 11.32Z" />
-                        </svg></p>
-                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 48 48">
-                            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                stroke-width="4"
-                                d="m6 11l5-5l13 13L37 6l5 5l-13 13l13 13l-5 5l-13-13l-13 13l-5-5l13-13L6 11Z"
-                                clip-rule="evenodd" />
-                        </svg></svg></p>
-                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 256 256">
-                            <path fill="currentColor"
-                                d="M216 40H40a16 16 0 0 0-16 16v144a16 16 0 0 0 16 16h176a16 16 0 0 0 16-16V56a16 16 0 0 0-16-16Zm-10.34 45.66l-96 96a8 8 0 0 1-11.32 0l-40-40a8 8 0 0 1 11.32-11.32L104 164.69l90.34-90.35a8 8 0 0 1 11.32 11.32Z" />
-                        </svg></p>
-                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 256 256">
-                            <path fill="currentColor"
-                                d="M216 40H40a16 16 0 0 0-16 16v144a16 16 0 0 0 16 16h176a16 16 0 0 0 16-16V56a16 16 0 0 0-16-16Zm-10.34 45.66l-96 96a8 8 0 0 1-11.32 0l-40-40a8 8 0 0 1 11.32-11.32L104 164.69l90.34-90.35a8 8 0 0 1 11.32 11.32Z" />
-                        </svg></p>
-                </div>
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 16 16"><g fill="currentColor"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/><path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8L4.646 5.354a.5.5 0 0 1 0-.708z"/></g></svg></p></p>
+                    <p></p>
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 1024 1024">
+                        <path fill="#1E90FF" d="M512 0C229.232 0 0 229.232 0 512c0 282.784 229.232 512 512 512c282.784 0 512-229.216 512-512C1024 229.232 794.784 0 512 0zm0 961.008c-247.024 0-448-201.984-448-449.01c0-247.024 200.976-448 448-448s448 200.977 448 448s-200.976 449.01-448 449.01zm204.336-636.352L415.935 626.944l-135.28-135.28c-12.496-12.496-32.752-12.496-45.264 0c-12.496 12.496-12.496 32.752 0 45.248l158.384 158.4c12.496 12.48 32.752 12.48 45.264 0c1.44-1.44 2.673-3.009 3.793-4.64l318.784-320.753c12.48-12.496 12.48-32.752 0-45.263c-12.512-12.496-32.768-12.496-45.28 0z"/></svg></p>
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 16 16"><g fill="currentColor"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/><path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8L4.646 5.354a.5.5 0 0 1 0-.708z"/></g></svg></p></p>
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 1024 1024">
+                        <path fill="#1E90FF" d="M512 0C229.232 0 0 229.232 0 512c0 282.784 229.232 512 512 512c282.784 0 512-229.216 512-512C1024 229.232 794.784 0 512 0zm0 961.008c-247.024 0-448-201.984-448-449.01c0-247.024 200.976-448 448-448s448 200.977 448 448s-200.976 449.01-448 449.01zm204.336-636.352L415.935 626.944l-135.28-135.28c-12.496-12.496-32.752-12.496-45.264 0c-12.496 12.496-12.496 32.752 0 45.248l158.384 158.4c12.496 12.48 32.752 12.48 45.264 0c1.44-1.44 2.673-3.009 3.793-4.64l318.784-320.753c12.48-12.496 12.48-32.752 0-45.263c-12.512-12.496-32.768-12.496-45.28 0z"/></svg></p>
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 16 16"><g fill="currentColor"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/><path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8L4.646 5.354a.5.5 0 0 1 0-.708z"/></g></svg></p></p>
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 1024 1024">
+                        <path fill="#1E90FF" d="M512 0C229.232 0 0 229.232 0 512c0 282.784 229.232 512 512 512c282.784 0 512-229.216 512-512C1024 229.232 794.784 0 512 0zm0 961.008c-247.024 0-448-201.984-448-449.01c0-247.024 200.976-448 448-448s448 200.977 448 448s-200.976 449.01-448 449.01zm204.336-636.352L415.935 626.944l-135.28-135.28c-12.496-12.496-32.752-12.496-45.264 0c-12.496 12.496-12.496 32.752 0 45.248l158.384 158.4c12.496 12.48 32.752 12.48 45.264 0c1.44-1.44 2.673-3.009 3.793-4.64l318.784-320.753c12.48-12.496 12.48-32.752 0-45.263c-12.512-12.496-32.768-12.496-45.28 0z"/></svg></p>
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 16 16"><g fill="currentColor"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/><path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8L4.646 5.354a.5.5 0 0 1 0-.708z"/></g></svg></p></p>
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 1024 1024">
+                        <path fill="#1E90FF" d="M512 0C229.232 0 0 229.232 0 512c0 282.784 229.232 512 512 512c282.784 0 512-229.216 512-512C1024 229.232 794.784 0 512 0zm0 961.008c-247.024 0-448-201.984-448-449.01c0-247.024 200.976-448 448-448s448 200.977 448 448s-200.976 449.01-448 449.01zm204.336-636.352L415.935 626.944l-135.28-135.28c-12.496-12.496-32.752-12.496-45.264 0c-12.496 12.496-12.496 32.752 0 45.248l158.384 158.4c12.496 12.48 32.752 12.48 45.264 0c1.44-1.44 2.673-3.009 3.793-4.64l318.784-320.753c12.48-12.496 12.48-32.752 0-45.263c-12.512-12.496-32.768-12.496-45.28 0z"/></svg></p>
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 1024 1024">
+                        <path fill="#1E90FF" d="M512 0C229.232 0 0 229.232 0 512c0 282.784 229.232 512 512 512c282.784 0 512-229.216 512-512C1024 229.232 794.784 0 512 0zm0 961.008c-247.024 0-448-201.984-448-449.01c0-247.024 200.976-448 448-448s448 200.977 448 448s-200.976 449.01-448 449.01zm204.336-636.352L415.935 626.944l-135.28-135.28c-12.496-12.496-32.752-12.496-45.264 0c-12.496 12.496-12.496 32.752 0 45.248l158.384 158.4c12.496 12.48 32.752 12.48 45.264 0c1.44-1.44 2.673-3.009 3.793-4.64l318.784-320.753c12.48-12.496 12.48-32.752 0-45.263c-12.512-12.496-32.768-12.496-45.28 0z"/></svg></p>
+                        <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 1024 1024">
+                            <path fill="#1E90FF" d="M512 0C229.232 0 0 229.232 0 512c0 282.784 229.232 512 512 512c282.784 0 512-229.216 512-512C1024 229.232 794.784 0 512 0zm0 961.008c-247.024 0-448-201.984-448-449.01c0-247.024 200.976-448 448-448s448 200.977 448 448s-200.976 449.01-448 449.01zm204.336-636.352L415.935 626.944l-135.28-135.28c-12.496-12.496-32.752-12.496-45.264 0c-12.496 12.496-12.496 32.752 0 45.248l158.384 158.4c12.496 12.48 32.752 12.48 45.264 0c1.44-1.44 2.673-3.009 3.793-4.64l318.784-320.753c12.48-12.496 12.48-32.752 0-45.263c-12.512-12.496-32.768-12.496-45.28 0z"/></svg></p>
+                    </div>
 
                 <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" class="price-1">
                     <p class="pack">Bien inmueble</p>
-                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 256 256">
-                            <path fill="currentColor"
-                                d="M216 40H40a16 16 0 0 0-16 16v144a16 16 0 0 0 16 16h176a16 16 0 0 0 16-16V56a16 16 0 0 0-16-16Zm-10.34 45.66l-96 96a8 8 0 0 1-11.32 0l-40-40a8 8 0 0 1 11.32-11.32L104 164.69l90.34-90.35a8 8 0 0 1 11.32 11.32Z" />
-                        </svg></p>
-                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 256 256">
-                            <path fill="currentColor"
-                                d="M216 40H40a16 16 0 0 0-16 16v144a16 16 0 0 0 16 16h176a16 16 0 0 0 16-16V56a16 16 0 0 0-16-16Zm-10.34 45.66l-96 96a8 8 0 0 1-11.32 0l-40-40a8 8 0 0 1 11.32-11.32L104 164.69l90.34-90.35a8 8 0 0 1 11.32 11.32Z" />
-                        </svg></p>
-                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 48 48">
-                            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                stroke-width="4"
-                                d="m6 11l5-5l13 13L37 6l5 5l-13 13l13 13l-5 5l-13-13l-13 13l-5-5l13-13L6 11Z"
-                                clip-rule="evenodd" />
-                        </svg></svg></p>
-                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 48 48">
-                            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                stroke-width="4"
-                                d="m6 11l5-5l13 13L37 6l5 5l-13 13l13 13l-5 5l-13-13l-13 13l-5-5l13-13L6 11Z"
-                                clip-rule="evenodd" />
-                        </svg></svg></p>
-                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 48 48">
-                            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                stroke-width="4"
-                                d="m6 11l5-5l13 13L37 6l5 5l-13 13l13 13l-5 5l-13-13l-13 13l-5-5l13-13L6 11Z"
-                                clip-rule="evenodd" />
-                        </svg></svg></p>
-                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 256 256">
-                            <path fill="currentColor"
-                                d="M216 40H40a16 16 0 0 0-16 16v144a16 16 0 0 0 16 16h176a16 16 0 0 0 16-16V56a16 16 0 0 0-16-16Zm-10.34 45.66l-96 96a8 8 0 0 1-11.32 0l-40-40a8 8 0 0 1 11.32-11.32L104 164.69l90.34-90.35a8 8 0 0 1 11.32 11.32Z" />
-                        </svg></p>
-                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 48 48">
-                            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                stroke-width="4"
-                                d="m6 11l5-5l13 13L37 6l5 5l-13 13l13 13l-5 5l-13-13l-13 13l-5-5l13-13L6 11Z"
-                                clip-rule="evenodd" />
-                        </svg></svg></p>
-                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 48 48">
-                            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                stroke-width="4"
-                                d="m6 11l5-5l13 13L37 6l5 5l-13 13l13 13l-5 5l-13-13l-13 13l-5-5l13-13L6 11Z"
-                                clip-rule="evenodd" />
-                        </svg></svg></p>
-                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 48 48">
-                            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                stroke-width="4"
-                                d="m6 11l5-5l13 13L37 6l5 5l-13 13l13 13l-5 5l-13-13l-13 13l-5-5l13-13L6 11Z"
-                                clip-rule="evenodd" />
-                        </svg></svg></p>
-                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 256 256">
-                            <path fill="currentColor"
-                                d="M216 40H40a16 16 0 0 0-16 16v144a16 16 0 0 0 16 16h176a16 16 0 0 0 16-16V56a16 16 0 0 0-16-16Zm-10.34 45.66l-96 96a8 8 0 0 1-11.32 0l-40-40a8 8 0 0 1 11.32-11.32L104 164.69l90.34-90.35a8 8 0 0 1 11.32 11.32Z" />
-                        </svg></p>
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 1024 1024">
+                        <path fill="#1E90FF" d="M512 0C229.232 0 0 229.232 0 512c0 282.784 229.232 512 512 512c282.784 0 512-229.216 512-512C1024 229.232 794.784 0 512 0zm0 961.008c-247.024 0-448-201.984-448-449.01c0-247.024 200.976-448 448-448s448 200.977 448 448s-200.976 449.01-448 449.01zm204.336-636.352L415.935 626.944l-135.28-135.28c-12.496-12.496-32.752-12.496-45.264 0c-12.496 12.496-12.496 32.752 0 45.248l158.384 158.4c12.496 12.48 32.752 12.48 45.264 0c1.44-1.44 2.673-3.009 3.793-4.64l318.784-320.753c12.48-12.496 12.48-32.752 0-45.263c-12.512-12.496-32.768-12.496-45.28 0z"/></svg></p></p>
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 1024 1024">
+                        <path fill="#1E90FF" d="M512 0C229.232 0 0 229.232 0 512c0 282.784 229.232 512 512 512c282.784 0 512-229.216 512-512C1024 229.232 794.784 0 512 0zm0 961.008c-247.024 0-448-201.984-448-449.01c0-247.024 200.976-448 448-448s448 200.977 448 448s-200.976 449.01-448 449.01zm204.336-636.352L415.935 626.944l-135.28-135.28c-12.496-12.496-32.752-12.496-45.264 0c-12.496 12.496-12.496 32.752 0 45.248l158.384 158.4c12.496 12.48 32.752 12.48 45.264 0c1.44-1.44 2.673-3.009 3.793-4.64l318.784-320.753c12.48-12.496 12.48-32.752 0-45.263c-12.512-12.496-32.768-12.496-45.28 0z"/></svg></p></p>
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 16 16"><g fill="currentColor"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/><path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8L4.646 5.354a.5.5 0 0 1 0-.708z"/></g></svg></p></p>
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 16 16"><g fill="currentColor"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/><path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8L4.646 5.354a.5.5 0 0 1 0-.708z"/></g></svg></p></p>
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 16 16"><g fill="currentColor"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/><path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8L4.646 5.354a.5.5 0 0 1 0-.708z"/></g></svg></p></p>
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 1024 1024">
+                        <path fill="#1E90FF" d="M512 0C229.232 0 0 229.232 0 512c0 282.784 229.232 512 512 512c282.784 0 512-229.216 512-512C1024 229.232 794.784 0 512 0zm0 961.008c-247.024 0-448-201.984-448-449.01c0-247.024 200.976-448 448-448s448 200.977 448 448s-200.976 449.01-448 449.01zm204.336-636.352L415.935 626.944l-135.28-135.28c-12.496-12.496-32.752-12.496-45.264 0c-12.496 12.496-12.496 32.752 0 45.248l158.384 158.4c12.496 12.48 32.752 12.48 45.264 0c1.44-1.44 2.673-3.009 3.793-4.64l318.784-320.753c12.48-12.496 12.48-32.752 0-45.263c-12.512-12.496-32.768-12.496-45.28 0z"/></svg></p></p>
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 16 16"><g fill="currentColor"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/><path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8L4.646 5.354a.5.5 0 0 1 0-.708z"/></g></svg></p></p>
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 16 16"><g fill="currentColor"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/><path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8L4.646 5.354a.5.5 0 0 1 0-.708z"/></g></svg></p></p>
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 16 16"><g fill="currentColor"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/><path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8L4.646 5.354a.5.5 0 0 1 0-.708z"/></g></svg></p></p>
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 1024 1024">
+                        <path fill="#1E90FF" d="M512 0C229.232 0 0 229.232 0 512c0 282.784 229.232 512 512 512c282.784 0 512-229.216 512-512C1024 229.232 794.784 0 512 0zm0 961.008c-247.024 0-448-201.984-448-449.01c0-247.024 200.976-448 448-448s448 200.977 448 448s-200.976 449.01-448 449.01zm204.336-636.352L415.935 626.944l-135.28-135.28c-12.496-12.496-32.752-12.496-45.264 0c-12.496 12.496-12.496 32.752 0 45.248l158.384 158.4c12.496 12.48 32.752 12.48 45.264 0c1.44-1.44 2.673-3.009 3.793-4.64l318.784-320.753c12.48-12.496 12.48-32.752 0-45.263c-12.512-12.496-32.768-12.496-45.28 0z"/></svg></p>
 
                 </div>
                 <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" class="price-1">
                     <p class="pack">Fondos</p>
-                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 256 256">
-                            <path fill="currentColor"
-                                d="M216 40H40a16 16 0 0 0-16 16v144a16 16 0 0 0 16 16h176a16 16 0 0 0 16-16V56a16 16 0 0 0-16-16Zm-10.34 45.66l-96 96a8 8 0 0 1-11.32 0l-40-40a8 8 0 0 1 11.32-11.32L104 164.69l90.34-90.35a8 8 0 0 1 11.32 11.32Z" />
-                        </svg></p>
-                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 48 48">
-                            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                stroke-width="4"
-                                d="m6 11l5-5l13 13L37 6l5 5l-13 13l13 13l-5 5l-13-13l-13 13l-5-5l13-13L6 11Z"
-                                clip-rule="evenodd" />
-                        </svg></svg></p>
-                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 48 48">
-                            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                stroke-width="4"
-                                d="m6 11l5-5l13 13L37 6l5 5l-13 13l13 13l-5 5l-13-13l-13 13l-5-5l13-13L6 11Z"
-                                clip-rule="evenodd" />
-                        </svg></svg></p>
-                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 48 48">
-                            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                stroke-width="4"
-                                d="m6 11l5-5l13 13L37 6l5 5l-13 13l13 13l-5 5l-13-13l-13 13l-5-5l13-13L6 11Z"
-                                clip-rule="evenodd" />
-                        </svg></svg></p>
-                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 48 48">
-                            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                stroke-width="4"
-                                d="m6 11l5-5l13 13L37 6l5 5l-13 13l13 13l-5 5l-13-13l-13 13l-5-5l13-13L6 11Z"
-                                clip-rule="evenodd" />
-                        </svg></svg></p>
-                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 256 256">
-                            <path fill="currentColor"
-                                d="M216 40H40a16 16 0 0 0-16 16v144a16 16 0 0 0 16 16h176a16 16 0 0 0 16-16V56a16 16 0 0 0-16-16Zm-10.34 45.66l-96 96a8 8 0 0 1-11.32 0l-40-40a8 8 0 0 1 11.32-11.32L104 164.69l90.34-90.35a8 8 0 0 1 11.32 11.32Z" />
-                        </svg></p>
-                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 48 48">
-                            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                stroke-width="4"
-                                d="m6 11l5-5l13 13L37 6l5 5l-13 13l13 13l-5 5l-13-13l-13 13l-5-5l13-13L6 11Z"
-                                clip-rule="evenodd" />
-                        </svg></svg></p>
-                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 48 48">
-                            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                stroke-width="4"
-                                d="m6 11l5-5l13 13L37 6l5 5l-13 13l13 13l-5 5l-13-13l-13 13l-5-5l13-13L6 11Z"
-                                clip-rule="evenodd" />
-                        </svg></svg></p>
-                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 256 256">
-                            <path fill="currentColor"
-                                d="M216 40H40a16 16 0 0 0-16 16v144a16 16 0 0 0 16 16h176a16 16 0 0 0 16-16V56a16 16 0 0 0-16-16Zm-10.34 45.66l-96 96a8 8 0 0 1-11.32 0l-40-40a8 8 0 0 1 11.32-11.32L104 164.69l90.34-90.35a8 8 0 0 1 11.32 11.32Z" />
-                        </svg></p>
-                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 256 256">
-                            <path fill="currentColor"
-                                d="M216 40H40a16 16 0 0 0-16 16v144a16 16 0 0 0 16 16h176a16 16 0 0 0 16-16V56a16 16 0 0 0-16-16Zm-10.34 45.66l-96 96a8 8 0 0 1-11.32 0l-40-40a8 8 0 0 1 11.32-11.32L104 164.69l90.34-90.35a8 8 0 0 1 11.32 11.32Z" />
-                        </svg></p>
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 1024 1024">
+                        <path fill="#1E90FF" d="M512 0C229.232 0 0 229.232 0 512c0 282.784 229.232 512 512 512c282.784 0 512-229.216 512-512C1024 229.232 794.784 0 512 0zm0 961.008c-247.024 0-448-201.984-448-449.01c0-247.024 200.976-448 448-448s448 200.977 448 448s-200.976 449.01-448 449.01zm204.336-636.352L415.935 626.944l-135.28-135.28c-12.496-12.496-32.752-12.496-45.264 0c-12.496 12.496-12.496 32.752 0 45.248l158.384 158.4c12.496 12.48 32.752 12.48 45.264 0c1.44-1.44 2.673-3.009 3.793-4.64l318.784-320.753c12.48-12.496 12.48-32.752 0-45.263c-12.512-12.496-32.768-12.496-45.28 0z"/></svg></p>
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 16 16"><g fill="currentColor"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/><path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8L4.646 5.354a.5.5 0 0 1 0-.708z"/></g></svg></p>
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 16 16"><g fill="currentColor"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/><path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8L4.646 5.354a.5.5 0 0 1 0-.708z"/></g></svg></p></p>
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 16 16"><g fill="currentColor"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/><path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8L4.646 5.354a.5.5 0 0 1 0-.708z"/></g></svg></p></p>
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 16 16"><g fill="currentColor"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/><path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8L4.646 5.354a.5.5 0 0 1 0-.708z"/></g></svg></p></p>
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 1024 1024">
+                        <path fill="#1E90FF" d="M512 0C229.232 0 0 229.232 0 512c0 282.784 229.232 512 512 512c282.784 0 512-229.216 512-512C1024 229.232 794.784 0 512 0zm0 961.008c-247.024 0-448-201.984-448-449.01c0-247.024 200.976-448 448-448s448 200.977 448 448s-200.976 449.01-448 449.01zm204.336-636.352L415.935 626.944l-135.28-135.28c-12.496-12.496-32.752-12.496-45.264 0c-12.496 12.496-12.496 32.752 0 45.248l158.384 158.4c12.496 12.48 32.752 12.48 45.264 0c1.44-1.44 2.673-3.009 3.793-4.64l318.784-320.753c12.48-12.496 12.48-32.752 0-45.263c-12.512-12.496-32.768-12.496-45.28 0z"/></svg></p>
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 16 16"><g fill="currentColor"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/><path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8L4.646 5.354a.5.5 0 0 1 0-.708z"/></g></svg></p></svg></p>
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 16 16"><g fill="currentColor"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/><path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8L4.646 5.354a.5.5 0 0 1 0-.708z"/></g></svg></p></p>
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 1024 1024">
+                        <path fill="#1E90FF" d="M512 0C229.232 0 0 229.232 0 512c0 282.784 229.232 512 512 512c282.784 0 512-229.216 512-512C1024 229.232 794.784 0 512 0zm0 961.008c-247.024 0-448-201.984-448-449.01c0-247.024 200.976-448 448-448s448 200.977 448 448s-200.976 449.01-448 449.01zm204.336-636.352L415.935 626.944l-135.28-135.28c-12.496-12.496-32.752-12.496-45.264 0c-12.496 12.496-12.496 32.752 0 45.248l158.384 158.4c12.496 12.48 32.752 12.48 45.264 0c1.44-1.44 2.673-3.009 3.793-4.64l318.784-320.753c12.48-12.496 12.48-32.752 0-45.263c-12.512-12.496-32.768-12.496-45.28 0z"/></svg></p>
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 1024 1024">
+                        <path fill="#1E90FF" d="M512 0C229.232 0 0 229.232 0 512c0 282.784 229.232 512 512 512c282.784 0 512-229.216 512-512C1024 229.232 794.784 0 512 0zm0 961.008c-247.024 0-448-201.984-448-449.01c0-247.024 200.976-448 448-448s448 200.977 448 448s-200.976 449.01-448 449.01zm204.336-636.352L415.935 626.944l-135.28-135.28c-12.496-12.496-32.752-12.496-45.264 0c-12.496 12.496-12.496 32.752 0 45.248l158.384 158.4c12.496 12.48 32.752 12.48 45.264 0c1.44-1.44 2.673-3.009 3.793-4.64l318.784-320.753c12.48-12.496 12.48-32.752 0-45.263c-12.512-12.496-32.768-12.496-45.28 0z"/></svg></p>
 
                 </div>
 
@@ -607,7 +492,7 @@
 
                     <div class="col-12 text-center mt-5">
                         <p class="text-white">
-                            Contactanos
+                            <a style="color: white;" href="contact.html">Contactanos</a>
                             <a href="https://wa.me/+524426673811"
                                 class="btn custom-btn custom-border-btn ms-3">WhatsApp</a>
                         </p>
@@ -621,33 +506,31 @@
             <div class="container">
                 <div class="row">
 
-                    <div class="col-lg-6 col-12">
-                        <h2 class="mb-4">Preguntas Frecuentes</h2>
-                    </div>
+                 
 
                     <div class="clearfix"></div>
 
-                    <div class="col-lg-5 col-12">
-                        <img src="images/faq_graphic.jpg" class="img-fluid" alt="FAQs">
-                    </div>
+                   
 
                     <div class="col-lg-6 col-12 m-auto">
+                        
                         <div class="accordion" id="accordionExample">
+                            <h2 class="mb-4">Preguntas Frecuentes</h2>
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="headingOne">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        ¿Por qué contratar un seguro de vida?
+                                        ¿Cuáles son los diferentes tipos de planes de ahorro para la universidad en México?
                                     </button>
                                 </h2>
 
                                 <div id="collapseOne" class="accordion-collapse collapse show"
                                     aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        Aunque es preferible no pensar en que algo malo pueda suceder, las desgracias
-                                        ocurren, y además en el momento menos pensado. Sin llegar a caer en el
-                                        pesimismo, siempre es conveniente estar prevenidos para lo que pueda ocurrir a
-                                        lo largo de la vida.
+                                        En México, hay dos tipos principales de planes de ahorro para la universidad:
+                                        <strong>Fideicomisos educativos:</strong> Los fideicomisos educativos son una cuenta de ahorro en la que puedes depositar dinero de forma periódica. El dinero del fideicomiso se invierte y se genera un rendimiento. Cuando tu hijo esté listo para ir a la universidad, podrás retirar el dinero del fideicomiso para pagar los gastos de matrícula, colegiatura y otros gastos relacionados con la educación.
+                                        <strong>Seguros educativos:</strong> Los seguros educativos son un tipo de seguro que te protege en caso de que no puedas pagar los gastos de educación superior de tus hijos. Si el asegurado fallece o queda incapacitado, el seguro pagará los gastos de la educación de tus hijos.
+             
                                     </div>
                                 </div>
                             </div>
@@ -656,20 +539,14 @@
                                 <h2 class="accordion-header" id="headingTwo">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        ¿A partir de qué edad se puede contratar un seguro de vida?
+                                        ¿Cuál es la edad mínima para comenzar a ahorrar para la jubilación en México?
                                     </button>
                                 </h2>
 
                                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        Apartir de los <strong>14 años</strong> se puede contratar este tipo de seguros
-                                        siempore que no figure como tomador el menor sino un tercero que lo
-                                        representantes legales de este -padre o tutores- den su consenmiento. La mayoría
-                                        de los expertos y compañías aconsejan no demorarlo demasiado y hacerlo al inicio
-                                        de la vida laboral o de la creación de la familia <strong> –más o menos entre
-                                            los 30 y los 40 años–</strong> que son los años más productivos para este
-                                        sistema de apoyo y ahorro, con el que se contará hasta el final de la vida.
+                                        No hay una edad mínima para comenzar a ahorrar para la jubilación en México. Puede comenzar a ahorrar para la jubilación tan pronto como comience a trabajar.
                                     </div>
                                 </div>
                             </div>
@@ -679,19 +556,36 @@
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseThree" aria-expanded="false"
                                         aria-controls="collapseThree">
-                                        ¿Por qué es mejor ahorrar en un seguro que de forma directa?
+                                        ¿Qué es un plan de ahorro para la jubilación?
                                     </button>
                                 </h2>
 
                                 <div id="collapseThree" class="accordion-collapse collapse"
                                     aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        Ahorrar a través de un seguro puede ser preferible debido a su capacidad para
-                                        proporcionar protección financiera adicional en caso de fallecimiento o
-                                        discapacidad, ofrecer ventajas fiscales en el crecimiento de efectivo acumulado,
-                                        y servir como una herramienta de planificación financiera a largo plazo. Además,
-                                        nosotros te podemos ayudar en la planificación patrimonial y fomentar una
-                                        disciplina de ahorro forzado.
+                                        Un plan de ahorro para la jubilación es una cuenta financiera que le ayuda a ahorrar para la jubilación. Cuando se jubile, puede retirar dinero de su cuenta para mantenerse.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseFour">
+                                        ¿Cuáles son los beneficios de tener un plan de ahorro para la jubilación?
+                                    </button>
+                                </h2>
+
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Hay muchos beneficios de tener un plan de ahorro para la jubilación, incluyendo:
+
+                                        <strong>Beneficios fiscales:</strong> Las contribuciones a los planes de ahorro para la jubilación a menudo son deducibles de impuestos. Esto significa que puede ahorrar dinero en sus impuestos contribuyendo a un plan de ahorro para la jubilación.
+                                        <strong>Interés compuesto:</strong> Su dinero en un plan de ahorro para la jubilación puede generar intereses compuestos. Esto significa que su dinero puede crecer con el tiempo.
+                                        <strong> Seguridad financiera:</strong> Tener un plan de ahorro para la jubilación puede darle seguridad financiera en la jubilación.
+
                                     </div>
                                 </div>
                             </div>
@@ -701,10 +595,11 @@
                 </div>
             </div>
         </section>
+
         <section class="fotoseccion">
-            <div class="seccion2">
-                <div class="texto-izquierda">
-                    <h3 style="color: aliceblue;">No dejes tu futuro a la suerte, asegura tu tranquilidad con nosotros.</h4>
+            <div class="seccion1">
+                <div class="et_pd_text_inner2">
+                    <h3 style="color:aliceblue;">No dejes tu futuro a la suerte, <br>asegura tu tranquilidad con nosotros.</h3>
 
                 </div>
             </div>
@@ -718,33 +613,30 @@
                         <h2 class="mb-5">Contacto</h2>
                     </div>
 
-                    <div class="col-lg-5 col-12 mb-4 mb-lg-0">
-                        <iframe class="google-map"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.531906850937!2d-99.1357762740217!3d19.432620740678722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fecd47a312b5%3A0x2bb136a9650a1a49!2sPlaza%20de%20la%20Constituci%C3%B3n%2C%20Centro%20Hist%C3%B3rico%20de%20la%20Cdad.%20de%20M%C3%A9xico%2C%20Centro%2C%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX%2C%20M%C3%A9xico!5e0!3m2!1ses!2sar!4v1695052131540!5m2!1ses!2sar"
-                            width="550" height="350" style="border:0; width: 95%;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade" width="100%" height="250" style="border:0;"
-                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="col-lg-5 col-12 mb-4 mb-lg-0" style="text-align: center;">
+                        <img src="images/1664996495149.jpg" alt="Tu imagen" width="250" height="490" style="border: 1px solid #000; border-radius: 50%; box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);" class="img-fluid" />
                     </div>
+                    
 
-                    <div class="col-lg-3 col-md-6 col-12 mb-3 mb-lg- mb-md-0 ms-auto">
-                        <h4 class="mb-3">Lic. Edgar Montoya</h4>
+                    <div  class="col-lg-3 col-md-6 col-12 mb-3 mb-lg- mb-md-0 ms-auto">
+                        <h4 class="mb-3">Edgar Montoya</h4>
 
-                        <p>Asesoría en Planeación Financiera</p>
+                        <p>Asesor Profesional de Seguros</p>
 
                         <hr>
 
                         <p class="d-flex align-items-center mb-1">
-                            <span class="me-2">Celular</span>
+                            <span  style="font-size: 15px;" class="me-2">Celular</span>
 
-                            <a href="tel: 305-240-9671" class="site-footer-link">
-                                +524426673811
+                            <a style="font-size: 20px;"href="tel: 305-240-9671" class="site-footer-link">
+                                (442)6673811
                             </a>
                         </p>
 
                         <p class="d-flex align-items-center">
-                            <span class="me-2">Email</span>
+                            <span style="font-size: 15px;" class="me-2">Email</span>
 
-                            <a href="mailto:info@company.com" class="site-footer-link">
+                            <a style="font-size: 20px;" href="mailto:info@company.com" class="site-footer-link">
                                 hola@zaneconsultores.com
                             </a>
                         </p>
@@ -791,11 +683,11 @@
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-6 mb-4 mb-lg-0">
-                    <h6 class="site-footer-title mb-3">Information</h6>
+                    <h6 class="site-footer-title mb-3">Información</h6>
 
                     <p class="text-white d-flex mb-1">
                         <a href="tel: +524426673811" class="site-footer-link" style="color: black; z-index: 1000;">
-                            +524426673811
+                            (442)6673811
                         </a>
                     </p>
 
@@ -814,16 +706,14 @@
                             <p class="text-white me-4">Share:</p>
 
                             <ul class="social-icon">
+                               
+
                                 <li class="social-icon-item">
-                                    <a href="#" class="social-icon-link bi-twitter"></a>
+                                    <a href="https://www.facebook.com/Zaneconsultores" class="social-icon-link bi-facebook"></a>
                                 </li>
 
                                 <li class="social-icon-item">
-                                    <a href="#" class="social-icon-link bi-facebook"></a>
-                                </li>
-
-                                <li class="social-icon-item">
-                                    <a href="#" class="social-icon-link bi-linkedin"></a>
+                                    <a href="https://www.linkedin.com/in/edgarmontoyat/" class="social-icon-link bi-linkedin"></a>
                                 </li>
                             </ul>
 
