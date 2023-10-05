@@ -811,8 +811,8 @@ strong {
 
 .price-2 {
   padding: 35px;
-  width: 50%;
-  font-size: 15px;
+  width: 100%;
+  
 }
 
 .price-1 {
@@ -821,6 +821,7 @@ strong {
   padding: 35px;
   border-radius: 25px;
   cursor: pointer;
+  width: 100%;
 
 }
 
@@ -828,12 +829,14 @@ strong {
   color: white;
   font-weight: 600;
   margin-bottom: 10px;
+  font-size: 15px;
 }
 
 .pack {
   color: #1E90FF;
   font-weight: 600;
   margin-bottom: 10px;
+  font-size: 15px;
 }
 
 .price-1 h3 {
