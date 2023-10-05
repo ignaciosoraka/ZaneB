@@ -1022,13 +1022,13 @@ label {
 }
 
 input{
-  padding: 20px 15ox 20px 60px;
+  padding:2.5px;
   background-color: #ffffff;
   
   border: 0;
-  box-shadow: 0 0 20px rgba(192, 203, 251, 0.7);
+  box-shadow: 0 0 20px rgba(16, 16, 16, 0.17);
   outline: none;
-  border-radius: 25px;
+  border-radius: 8px;
   color: #000000;
   font-size: 16px;
 }
@@ -1045,8 +1045,8 @@ textarea {
 
 
 .btn2 {
-  margin-top: 30px;
-  padding: 20px 15ox 20px 60px;
+  margin-top:5px;
+  padding: 10px;
   width: 200px;
   align-self: center;
   text-transform: capitalize;
