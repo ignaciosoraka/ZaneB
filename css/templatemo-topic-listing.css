@@ -1674,7 +1674,7 @@ blockquote {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 10px;
     margin-bottom: 10px;
-    width: 50px;
+    
     
   }
 
