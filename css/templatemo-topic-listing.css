@@ -919,6 +919,7 @@ strong {
   min-height: 350px;
   padding: 0;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  
 }
 
 .custom-block-overlay>a {
@@ -944,12 +945,12 @@ strong {
   left: 0;
   
   background: #04a6e9;
-
+  border-radius: 20px;
 
 }
 
 
-/*arranca contacto*/
+/*arranca formulario*/
 
 .contact {
   display: flex;
@@ -961,7 +962,7 @@ strong {
   text-align: center;
   display: flex;
   justify-content: center;
-  /*padding-bottom: 100px;*/
+  padding-bottom: 100px;
   background:#d0d0d0;
   background-position: center center;
   background-repeat: no-repeat;
@@ -977,6 +978,7 @@ strong {
   font-size: 40px;
   color: #000000;
   margin-bottom: 10px;
+  
 }
 
 .form-container p {
@@ -986,12 +988,13 @@ strong {
 }
 
 form {
-  padding: 20px;
+  
 
   border-radius: 15px;
 
   
-  height: 500px;
+  justify-content: center;
+  height: 400px;
   text-align: left;
   display: flex;
   flex-direction: column;
@@ -1018,11 +1021,12 @@ label {
   margin-bottom: 15px;
 }
 
-input,
-textarea {
-  padding: 10px 5px;
+input{
+  padding: 20px 15ox 20px 60px;
   background-color: #ffffff;
+  
   border: 0;
+  box-shadow: 0 0 20px rgba(192, 203, 251, 0.7);
   outline: none;
   border-radius: 25px;
   color: #000000;
@@ -1042,7 +1046,7 @@ textarea {
 
 .btn2 {
   margin-top: 30px;
-  padding: 10px 4px;
+  padding: 5px 2px;
   width: 200px;
   align-self: center;
   text-transform: capitalize;
@@ -1640,7 +1644,7 @@ blockquote {
     font-size: 20px;
   }
   .featured-section {
-    padding-bottom: 200px; }
+    padding-bottom: 50px; }
   
   /*contacto*/
   .form {
@@ -1649,10 +1653,13 @@ blockquote {
     
     
   }
+
+  form{
+    justify-content: flex-start;
+  }
   .custom-block {
     border-radius: var(--border-radius-medium);
-    position: relative;
-    overflow: visible;
+   
     
     
   }
