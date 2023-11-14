@@ -21,7 +21,7 @@ https://templatemo.com/tm-590-topic-listing
   --border-color: #7fffd4;
   --link-hover-color: #13547a;
 
-  --body-font-family:  'Poppins', sans-serif;
+  --body-font-family: 'Poppins', sans-serif;
   --title-font-family: 'Poppins', sans-serif;
 
   --h1-font-size: 58px;
@@ -229,7 +229,7 @@ strong {
 .custom-border-btn {
   background: transparent;
   border: 2px solid var(--custom-btn-bg-color);
-  
+
 }
 
 .custom-border-btn:hover {
@@ -248,7 +248,7 @@ strong {
   SITE HEADER              
 -----------------------------------------*/
 .site-header {
-  background-image:  linear-gradient(360deg, #04a6e9 25%, #0474bc 100%);
+  background-image: linear-gradient(360deg, #04a6e9 25%, #0474bc 100%);
   padding-top: 150px;
   padding-bottom: 80px;
 }
@@ -491,7 +491,7 @@ strong {
   overflow: hidden;
   padding-top: 150px;
   padding-bottom: 150px;
-  
+
 }
 
 .hero-section .input-group {
@@ -519,6 +519,7 @@ strong {
   color: var(--white-color);
   max-width: 150px;
 }
+
 /*---------------------------------------
   whatsapp         
 -----------------------------------------*/
@@ -542,20 +543,20 @@ strong {
 /*---------------------------------------
   coberturas           
 -----------------------------------------*/
-.servicios{
-  background:#0474bc;
+.servicios {
+  background: #0474bc;
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 70vh;
   padding: 0 35px;
-  
-  
-  
+
+
+
 
 }
 
-.wrapper i{
+.wrapper i {
   height: 50px;
   width: 50px;
   background: #fff;
@@ -567,56 +568,59 @@ strong {
   top: 50%;
   transform: translateY(-50%);
   font-size: 1.25rem;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
   z-index: 2;
 }
 
-.wrapper i:first-child{
+.wrapper i:first-child {
   left: -22px;
 }
-.wrapper i:last-child{
+
+.wrapper i:last-child {
   right: -22px;
 }
 
 
-.wrapper{
+.wrapper {
   max-width: 1100px;
   width: 100%;
   position: relative;
 }
 
-.wrapper .carousel{
+.wrapper .carousel {
   display: grid;
   grid-auto-flow: column;
   grid-auto-columns: calc((100%/3) - 2px);
   gap: 16px;
-  overflow-x:auto;
+  overflow-x: auto;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   scrollbar-width: 0;
-  
+
 }
 
-.carousel::-webkit-scrollbar{
+.carousel::-webkit-scrollbar {
   display: none;
 }
 
 
 
-.carousel.no-transition{
+.carousel.no-transition {
   scroll-behavior: auto;
 }
-.carousel.dragging{
-  scroll-snap-type:none;
+
+.carousel.dragging {
+  scroll-snap-type: none;
   scroll-behavior: auto;
 
 }
-.carousel.dragging .card{
+
+.carousel.dragging .card {
   cursor: grab;
   user-select: none;
 }
 
-.carousel .card{
+.carousel .card {
   scroll-snap-align: start;
   height: 342px;
   list-style: none;
@@ -628,25 +632,26 @@ strong {
   flex-direction: column;
   padding-bottom: 15px;
   cursor: pointer;
-  
-  
+
+
 }
 
 /*si subo imagenes*/
-.carousel :where(.card, .img){
+.carousel :where(.card, .img) {
   display: flex;
   align-items: center;
   justify-content: center;
 
 }
-.card .img{
-  background:#0d518c;
+
+.card .img {
+  background: #0d518c;
   width: 148px;
   height: 148px;
   border-radius: 50%;
 }
 
-.card .img img{
+.card .img img {
   width: 120px;
   height: 120px;
   object-fit: cover;
@@ -655,7 +660,7 @@ strong {
 
 }
 
-.card h2{
+.card h2 {
   font-weight: 500;
   font-size: 1.56rem;
   margin: 30px 0 5px;
@@ -667,17 +672,17 @@ strong {
 
 
 @media screen and (max-width: 900px) {
-  .wrapper .carousel{
-      grid-auto-columns: calc((100%/2) - -3px);
+  .wrapper .carousel {
+    grid-auto-columns: calc((100%/2) - -3px);
   }
-  
+
 }
 
 @media screen and (max-width: 600px) {
-  .wrapper .carousel{
-      grid-auto-columns: calc((100%/1) - -20px);
+  .wrapper .carousel {
+    grid-auto-columns: calc((100%/1) - -20px);
   }
-  
+
 }
 
 
@@ -689,37 +694,43 @@ strong {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 70vh; /* Ocupa todo el alto de la ventana */
-  background-image:  url(../images/seccion1.jpeg);
-  background-size: cover; /* Ajusta la imagen para cubrir toda la sección */
-  background-position: center; 
+  height: 70vh;
+  /* Ocupa todo el alto de la ventana */
+  background-image: url(../images/seccion1.jpeg);
+  background-size: cover;
+  /* Ajusta la imagen para cubrir toda la sección */
+  background-position: center;
   position: relative;
-  padding: 20px; /* Espaciado interno */
+  padding: 20px;
+  /* Espaciado interno */
   margin-bottom: 100px;
-  
+
 }
 
-.seccion1{
+.seccion1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 80vh; /* Ocupa todo el alto de la ventana */
-  background-image:  url(../images/seccion2.jpg);
-  background-size: cover; /* Ajusta la imagen para cubrir toda la sección */
-  background-position: center; 
+  height: 80vh;
+  /* Ocupa todo el alto de la ventana */
+  background-image: url(../images/seccion2.jpg);
+  background-size: cover;
+  /* Ajusta la imagen para cubrir toda la sección */
+  background-position: center;
   position: relative;
-  padding: 20px; /* Espaciado interno */
+  padding: 20px;
+  /* Espaciado interno */
   margin-bottom: 100px;
 }
 
-@media screen and (max-width: 500px)  {
-  .seccion{
+@media screen and (max-width: 500px) {
+  .seccion {
     height: 400px;
   }
-  
-  .seccion1{
-    height:450px ;
-    
+
+  .seccion1 {
+    height: 450px;
+
   }
 
   .my-4 {
@@ -735,16 +746,16 @@ strong {
 
 
 
-.et_pd_text_inner{
-  
+.et_pd_text_inner {
+
   position: absolute;
   top: 80%;
   left: 20%;
   transform: translate(-10%, -80%);
 }
 
-.et_pd_text_inner2{
-  
+.et_pd_text_inner2 {
+
   position: absolute;
   top: 80%;
   right: 10%;
@@ -758,30 +769,37 @@ strong {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 40vh; /* Ocupa todo el alto de la ventana */
+  height: 40vh;
+  /* Ocupa todo el alto de la ventana */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/cara1.jpg);
-  background-size: cover; /* Ajusta la imagen para cubrir toda la sección */
-  background-position: center; 
-  color: white; /* Color del texto */
-  padding: 20px; /* Espaciado interno */
+  background-size: cover;
+  /* Ajusta la imagen para cubrir toda la sección */
+  background-position: center;
+  color: white;
+  /* Color del texto */
+  padding: 20px;
+  /* Espaciado interno */
   margin-bottom: 100px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
-  
-  
+
+
 }
 
 @media (max-width: 767px) {
   .fotoseccion {
-    background-position: center; 
-}
+    background-position: center;
+  }
 }
 
 
 /* Estilo para el texto a la derecha */
 .texto-izquierda {
-  max-width: 50%; /* Ancho máximo del texto */
-  padding: 20px; /* Espaciado interno del texto */
-  flex: 1; /* Asegura que el texto ocupe el espacio disponible a la izquierda */
+  max-width: 50%;
+  /* Ancho máximo del texto */
+  padding: 20px;
+  /* Espaciado interno del texto */
+  flex: 1;
+  /* Asegura que el texto ocupe el espacio disponible a la izquierda */
   line-height: 1.3em;
   font-size: 30px;
 }
@@ -797,7 +815,8 @@ strong {
   padding: 0 0 120px 0;
   text-align: center;
 }
-.wp-image-1035{
+
+.wp-image-1035 {
   display: none;
 }
 
@@ -813,7 +832,7 @@ strong {
 .price-2 {
   padding: 35px;
   width: 100%;
-  
+
 }
 
 .price-1 {
@@ -889,15 +908,14 @@ strong {
   border-radius: var(--border-radius-medium);
   position: relative;
   overflow: hidden;
-  padding: 30px;
+  padding: 50px;
   transition: all 0.3s ease;
-  height: 100%;
+
+
+
 }
 
-.custom-block:hover {
-  background-color: var(--secondary-color);
-  transform: translateY(-3px);
-}
+
 
 .custom-block>a {
   width: 100%;
@@ -929,10 +947,11 @@ strong {
 
 .custom-block-overlay {
   height: 100%;
-  min-height: 350px;
-  padding: 0;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  
+  min-height: 500px;
+  padding: 59px;
+  margin-bottom: 40px;
+
+
 }
 
 .custom-block-overlay>a {
@@ -956,7 +975,8 @@ strong {
   top: 0;
   right: 0;
   left: 0;
-  
+
+
   background: #04a6e9;
   border-radius: 20px;
 
@@ -973,17 +993,26 @@ strong {
 
 .form-container {
   text-align: center;
-  display: flex;
-  justify-content: center;
+
   padding-bottom: 100px;
-  background:#d0d0d0;
+  background: #d0d0d0;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: var(--border-radius-medium);
+  padding: 10px 50px 0 50px;
+
+
 
 
 }
+
+
+
+
+
+
+
 
 .form-container h2 {
   display: flex;
@@ -991,7 +1020,7 @@ strong {
   font-size: 40px;
   color: #000000;
   margin-bottom: 10px;
-  
+
 }
 
 .form-container p {
@@ -1001,11 +1030,9 @@ strong {
 }
 
 form {
-  
 
-  border-radius: 15px;
 
-  
+
   justify-content: center;
   height: 400px;
   text-align: left;
@@ -1034,12 +1061,12 @@ label {
   margin-bottom: 15px;
 }
 
-input{
-  padding:2.5px 15px;
+input {
+  padding: 2.5px 15px;
   background-color: #ffffff;
-  
+
   border: 0;
-  box-shadow: 0 0 20px rgba(16, 16, 16, 0.17);
+
   outline: none;
   border-radius: 8px;
   color: #000000;
@@ -1058,7 +1085,7 @@ textarea {
 
 
 .btn2 {
-  margin-top:5px;
+  margin-top: 5px;
   padding: 8px;
   width: 200px;
   align-self: center;
@@ -1067,7 +1094,7 @@ textarea {
   font-size: 16px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   cursor: pointer;
-  background:#0d518c;
+  background: #0d518c;
 }
 
 .btn:hover {
@@ -1491,6 +1518,34 @@ blockquote {
   font-size: var(--copyright-font-size);
 }
 
+/*---------------------------------------
+calculadora             
+-----------------------------------------*/
+
+.calculadora {
+  padding-top: 30px;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.calcu {
+  text-align: center;
+  color: #0d518c;
+  padding-bottom: 30px;
+}
+
+.form-label {
+  color: #0d518c;
+  font-size: larger;
+
+}
+
+input[type="range"] {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+
 
 
 /*---------------------------------------
@@ -1518,7 +1573,7 @@ blockquote {
   width: 35px;
   height: 35px;
   line-height: 36px;
-  transition: background 0.2s, color 0.2s;
+
 }
 
 .social-icon-link:hover {
@@ -1530,7 +1585,7 @@ blockquote {
 /*---------------------------------------
   RESPONSIVE STYLES               
 -----------------------------------------*/
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1081px) {
   h1 {
     font-size: 48px;
   }
@@ -1618,14 +1673,21 @@ blockquote {
     padding-top: 30px;
     padding-bottom: 0;
   }
-  .price-content{
+
+  .price-content {
     display: none;
   }
-  .wp-image-1035{
+
+  .wp-image-1035 {
     display: block;
     width: 100%;
   }
 
+  .calculadora {
+
+    margin: 20px auto;
+    max-width: 400px;
+  }
 
 }
 
@@ -1633,14 +1695,16 @@ blockquote {
   h1 {
     font-size: 36px;
   }
-  .et_pd_text_inner2{
-  
+
+  .et_pd_text_inner2 {
+
     position: absolute;
     top: 90%;
     right: 10%;
     transform: translate(10%, -70%);
-    
+
   }
+
   h2 {
     font-size: 28px;
   }
@@ -1656,48 +1720,75 @@ blockquote {
   h5 {
     font-size: 20px;
   }
+
   .featured-section {
-    padding-bottom: 50px; }
-  
+    padding-bottom: 50px;
+  }
+
   /*contacto*/
   .form {
     width: 100%;
     display: flex;
-    
-    
+
   }
-  .btn2{
+
+  .form-container {
+    padding: 0px 20px 0px 20px;
+  }
+
+  .btn2 {
     width: 100%;
   }
 
-  form{
+  form {
     justify-content: flex-start;
   }
+
   .custom-block {
     border-radius: var(--border-radius-medium);
-   
-    
-    
-  }
-  .custom-block-image2{
-    height: 150%;
-    border-radius: 15px;
+    height: 100%;
+    padding: 25px;
+
   }
 
 
-  
-  .form-group {
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 10px;
-    margin-bottom: 10px;
-   
-    
-  }
 
-  textarea {
-    margin-bottom: 30px;
-  }
+.custom-block-overlay {
+  height: 100%;
+  min-height: 595px;
+  padding: 0;
 
 
-  
+}
+
+
+.custom-block-image2 {
+  height: 150%;
+  border-radius: 15px;
+}
+
+
+
+.form-group {
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 10px;
+  margin-bottom: 10px;
+
+
+}
+
+
+textarea {
+  margin-bottom: 30px;
+}
+
+.calculadora {
+
+  margin: 20px auto;
+  max-width: 200px;
+}
+
+.calcu {
+  font-size: 22px;
+}
 }
